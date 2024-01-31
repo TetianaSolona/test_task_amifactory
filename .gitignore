@@ -1,0 +1,6 @@
+# Ignore sensitive or environment-specific information
+.env
+# Ignore the local virtual environment directory
+venv/
+# Ignore IDE and text editor files
+.idea/
