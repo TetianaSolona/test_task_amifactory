@@ -88,7 +88,8 @@ class MovieViewsTests(TestCase):
                     'poster': None,
                     'bg_picture': None,
                     'genres': [{'id': self.genre.id, 'title': 'Test_genre'}],
-                    'directors': [{'id': self.director.id, 'first_name': 'Test_director', 'last_name': 'Test_director'}],
+                    'directors': [
+                        {'id': self.director.id, 'first_name': 'Test_director', 'last_name': 'Test_director'}],
                     'writers': [{'id': self.writer.id, 'first_name': 'Test_writer', 'last_name': 'Test_writer'}],
                     'stars': [{'id': self.star.id, 'first_name': 'Test_star', 'last_name': 'Test_star'}],
                 }
